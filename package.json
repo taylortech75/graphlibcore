@@ -1,8 +1,8 @@
 {
-  "name": "@dagrejs/graphlib",
-  "version": "2.2.5-pre",
+  "name": "graphstruct",
+  "version": "2.2.6",
   "description": "A directed and undirected multi-graph library",
-  "author": "Chris Pettitt <cpettitt@gmail.com>",
+  "author": "Tomas Olson <tomasolson42@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dagrejs/graphlib.git"
+    "url": "https://github.com/tomasdev42/graphstruct"
   }
 }
