@@ -1,8 +1,8 @@
 {
-  "name": "graphstruct",
-  "version": "2.2.6",
+  "name": "graphlibcore",
+  "version": "2.2.11",
   "description": "A directed and undirected multi-graph library",
-  "author": "Tomas Olson <tomasolson42@gmail.com>",
+  "author": "Taylor Hayes <taylorhayes1202@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomasdev42/graphstruct"
+    "url": "https://github.com/taylortech75/graphlibcore"
   }
 }

@@ -1,4 +1,4 @@
-graphstruct is a JavaScript library for creating and modifying directed and undirected graphs. In addition to a core graph API, it also comes with implementations for many common graph algorithms.
+graphlibcore is a JavaScript library for creating and modifying directed and undirected graphs. In addition to a core graph API, it also comes with implementations for many common graph algorithms.
 
 # Table of Contents
 
@@ -9,16 +9,16 @@ graphstruct is a JavaScript library for creating and modifying directed and undi
     * [Browser Scripts](#browser-scripts)
     * [Source Build](#source-build)
 * [[API Reference]]
-* [Bug Tracking](/tomasdev42/graphstruct/issues)
+* [Bug Tracking](/taylortech75/graphlibcore/issues)
 * [[Contributing]]
 * [License](#license)
 
 ## Example
 
-This following code block shows a small example of how to use graphstruct in node.js:
+This following code block shows a small example of how to use graphlibcore in node.js:
 
 ```js
-var Graph = require("graphstruct").Graph;
+var Graph = require("graphlibcore").Graph;
 
 // Create a new directed graph
 var g = new Graph();
@@ -65,12 +65,12 @@ g.nodeEdges("d");
 // => `[ { v: 'c', w: 'd' } ]`
 ```
 
-or graphstruct can be included in a webpage:
+or graphlibcore can be included in a webpage:
 
 ```html
-<script src="http://PATH/TO/graphstruct.min.js"></script>
+<script src="http://PATH/TO/graphlibcore.min.js"></script>
  <script>
-var g = new graphstruct.Graph();
+var g = new graphlibcore.Graph();
 // ...etc.
 ```
 
@@ -80,9 +80,9 @@ var g = new graphstruct.Graph();
 
 Before installing this library you need to install the [npm package manager](http://npmjs.org/).
 
-To get graphstruct from npm, use:
+To get graphlibcore from npm, use:
 
-    $ npm install graphstruct
+    $ npm install graphlibcore
 
 ### Source Build
 
@@ -92,11 +92,11 @@ Check out this project and run this command from the root of the project:
 
     $ make dist
 
-This will generate `graphstruct.js` and `graphstruct.min.js` in the `dist` directory
+This will generate `graphlibcore.js` and `graphlibcore.min.js` in the `dist` directory
 of the project.
 
 # License
 
-graphstruct is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
+graphlibcore is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
 
 [npm package manager]: http://npmjs.org/
