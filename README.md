@@ -1,24 +1,24 @@
-graphlibcore is a JavaScript library for creating and modifying directed and undirected graphs. In addition to a core graph API, it also comes with implementations for many common graph algorithms.
+netstruct is a JavaScript library for creating and modifying directed and undirected graphs. In addition to a core graph API, it also comes with implementations for many common graph algorithms.
 
 # Table of Contents
 
-* [Example](#example)
-* [Installing](#installing)
-    * [npm Install](#npm-install)
-    * [Bower Install](#bower-install)
-    * [Browser Scripts](#browser-scripts)
-    * [Source Build](#source-build)
-* [[API Reference]]
-* [Bug Tracking](/taylortech75/graphlibcore/issues)
-* [[Contributing]]
-* [License](#license)
+- [Example](#example)
+- [Installing](#installing)
+  - [npm Install](#npm-install)
+  - [Bower Install](#bower-install)
+  - [Browser Scripts](#browser-scripts)
+  - [Source Build](#source-build)
+- [[API Reference]]
+- [Bug Tracking](/taylortech75/netstruct/issues)
+- [[Contributing]]
+- [License](#license)
 
 ## Example
 
-This following code block shows a small example of how to use graphlibcore in node.js:
+This following code block shows a small example of how to use netstruct in node.js:
 
 ```js
-var Graph = require("graphlibcore").Graph;
+var Graph = require("netstruct").Graph;
 
 // Create a new directed graph
 var g = new Graph();
@@ -65,24 +65,24 @@ g.nodeEdges("d");
 // => `[ { v: 'c', w: 'd' } ]`
 ```
 
-or graphlibcore can be included in a webpage:
+or netstruct can be included in a webpage:
 
 ```html
-<script src="http://PATH/TO/graphlibcore.min.js"></script>
+<script src="http://PATH/TO/netstruct.min.js"></script>
  <script>
-var g = new graphlibcore.Graph();
+var g = new netstruct.Graph();
 // ...etc.
 ```
 
-## Installing 
+## Installing
 
 ### npm Install
 
 Before installing this library you need to install the [npm package manager](http://npmjs.org/).
 
-To get graphlibcore from npm, use:
+To get netstruct from npm, use:
 
-    $ npm install graphlibcore
+    $ npm install netstruct
 
 ### Source Build
 
@@ -92,11 +92,11 @@ Check out this project and run this command from the root of the project:
 
     $ make dist
 
-This will generate `graphlibcore.js` and `graphlibcore.min.js` in the `dist` directory
+This will generate `netstruct.js` and `netstruct.min.js` in the `dist` directory
 of the project.
 
 # License
 
-graphlibcore is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
+netstruct is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
 
 [npm package manager]: http://npmjs.org/

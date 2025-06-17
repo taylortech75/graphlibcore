@@ -1,8 +1,8 @@
 {
-  "name": "graphlibcore",
-  "version": "2.2.11",
+  "name": "netstruct",
+  "version": "2.1.6",
   "description": "A directed and undirected multi-graph library",
-  "author": "Taylor Hayes <taylorhayes1202@gmail.com>",
+  "author": "Kenny <kennytech92@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylortech75/graphlibcore"
+    "url": "https://github.com/taylortech75/netstruct"
   }
 }
